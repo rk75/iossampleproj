@@ -14,7 +14,7 @@ class ViewController: UIViewController, NSURLSessionDelegate  {
      let requestURL: NSURL = NSURL(string: "https://192.169.189.100:7443/times/userLoginJSON.jsp?centercode=1248&Username=adminglobaltots&Password=12345678")!
        /* let  requestURL: NSURL = NSURL(string: "http://208.109.108.174:7070/times/userLoginJSON.jsp?centercode=1221&Username=adminlittle&Password=sipindia")!
         */
-        
+        //push from folder
        
         let urlRequest: NSMutableURLRequest = NSMutableURLRequest(URL: requestURL)
         //let session = NSURLSession.sharedSession()
